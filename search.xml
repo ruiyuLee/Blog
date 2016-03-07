@@ -4,8 +4,49 @@
   
     
     <entry>
+      <title><![CDATA[使用Hexo建立自己的博客网站-扩展篇]]></title>
+      <url>http://dayu.love/2016/03/06/hexo-kuo-zhan/</url>
+      <content type="html"><![CDATA[<p>使用Hexo建立自己的博客网站期间，会有诸多大大小小的问题影响你的工作效率。</p>
+<p>要大大提高效率，避免错误的产生造成损失，</p>
+<p>必须一一消灭掉！</p>
+<h2 id="有关一键部署到Git"><a href="#有关一键部署到Git" class="headerlink" title="有关一键部署到Git"></a>有关一键部署到Git</h2><p>Hexo提供的一键部署到Git的支持非常方便和大大提高了我们的工作效率，无需手动拷贝文件指定目录中进行手动Git同步。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo-简洁主题maupassant使用]]></title>
+      <url>http://dayu.love/2016/03/06/hexo-themes-maupassant/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>Maupassant最初是由Cho大神为Typecho平台设计开发的一套响应式模板，体积只有20KB，在各种尺寸的设备上表现出色。</p>
+<p>原文：<a href="https://www.haomwei.com/technology/maupassant-hexo.html" target="_blank" rel="external">https://www.haomwei.com/technology/maupassant-hexo.html</a></p>
+</blockquote>
+<h2 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h2><p>安装主题和渲染器：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line">$ npm install hexo-renderer-jade --save</span><br><span class="line">$ npm install hexo-renderer-sass --save</span><br></pre></td></tr></table></figure>
+<p>编辑Hexo目录下的 <code>_config.yml</code>，将<code>theme:</code>的值改为<code>maupassant</code>。</p>
+<h3 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h3><p>注意安装渲染器时出错，导致部署的网站没有样式。</p>
+<p>尝试重新安装(如果必要，使用网络代理).</p>
+<h2 id="添加搜索框："><a href="#添加搜索框：" class="headerlink" title="添加搜索框："></a>添加搜索框：</h2><p> <code>$ npm install hexo-generator-search --save</code></p>
+<p>编辑<code>themes/maupassant</code>目录下的<code>_config.yml</code>，增加以下内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">search:</span><br><span class="line">  - path: search.xml</span><br><span class="line">  - field: post</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>path - 指定生成的索引数据的文件名。默认为 search.xml 。</li>
+<li>field - 指定索引数据的生成范围。可选值包括：<ul>
+<li>post - 只生成博客文章（post）的索引（默认）；</li>
+<li>page - 只生成其他页面（page）的索引；</li>
+<li>all - 生成所有文章和页面的索引。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>原文：<a href="http://hahack.com/codes/local-search-engine-for-hexo/" target="_blank" rel="external">http://hahack.com/codes/local-search-engine-for-hexo/</a></p>
+</blockquote>
+<h3 id="问题解决-1"><a href="#问题解决-1" class="headerlink" title="问题解决"></a>问题解决</h3><p>如果开启<code>google_search</code>、<code>baidu_search</code>会各显示一个<strong>搜索框</strong>，为了避免显示错误，屏蔽外部搜索，只显示<strong>本地搜索框</strong>。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">google_search: ## Use Google search, true/false.</span><br><span class="line">baidu_search: ## Use Baidu search, true/false.</span><br><span class="line">和</span><br><span class="line">widgets:</span><br><span class="line">  - search</span><br></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[使用Hexo建立自己的博客网站]]></title>
-      <url>http://dayu.love/2016/03/06/Hexo/</url>
+      <url>http://dayu.love/2016/03/01/Hexo/</url>
       <content type="html"><![CDATA[<p>使用Hexo建立自己的博客网站 ，可以概括为以下几个流程：</p>
 <ol>
 <li>注册<a href="https://github.com/" target="_blank" rel="external">GitHub</a>账号</li>

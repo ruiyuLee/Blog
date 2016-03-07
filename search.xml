@@ -4,8 +4,21 @@
   
     
     <entry>
+      <title><![CDATA[使用Hexo建立自己的博客]]></title>
+      <url>http://dayu.love/2016/03/06/Hexo/</url>
+      <content type="html"><![CDATA[<p>使用Hexo建立自己的博客。</p>
+<ul>
+<li>GitHub</li>
+<li>Hexo</li>
+<li>独立域名</li>
+<li>如果一切备齐，很快就可以搞定</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[你好，世界]]></title>
-      <url>http://dayu.love/1988/08/08/hello-world/</url>
+      <url>http://dayu.love/2010/08/08/hello-world/</url>
       <content type="html"><![CDATA[<p>一个充满了伟大幻想的梦想家，在这里驻足，瞻望…</p>
 ]]></content>
     </entry>

@@ -6,9 +6,11 @@
     <entry>
       <title><![CDATA[Hexo-简洁主题maupassant使用]]></title>
       <url>http://www.dayu.love/2016/03/06/hexo-themes-maupassant/</url>
-      <content type="html"><![CDATA[<blockquote>
+      <content type="html"><![CDATA[<p><img src="/images/hexo-theme-maupassant.png" alt="alt"></p>
+<p>使用简洁风格主题。</p>
+<blockquote>
 <p>Maupassant最初是由Cho大神为Typecho平台设计开发的一套响应式模板，体积只有20KB，在各种尺寸的设备上表现出色。</p>
-<p>原文：<a href="https://www.haomwei.com/technology/maupassant-hexo.html" target="_blank" rel="external">https://www.haomwei.com/technology/maupassant-hexo.html</a></p>
+<p>主题地址：<a href="https://github.com/tufu9441/maupassant-hexo" target="_blank" rel="external">https://github.com/tufu9441/maupassant-hexo</a></p>
 </blockquote>
 <h2 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h2><p>安装主题和渲染器：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line">$ npm install hexo-renderer-jade --save</span><br><span class="line">$ npm install hexo-renderer-sass --save</span><br></pre></td></tr></table></figure>

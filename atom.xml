@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>大宇</title>
-  <subtitle>如果世界需要阳光，我愿做个太阳。</subtitle>
+  <subtitle>怀揣一份理想，才能成就非凡。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.dayu.love/"/>
@@ -117,62 +117,113 @@
     <link href="http://www.dayu.love/2016/03/01/Hexo/"/>
     <id>http://www.dayu.love/2016/03/01/Hexo/</id>
     <published>2016-03-01T04:39:00.000Z</published>
-    <updated>2016-03-07T12:57:36.000Z</updated>
+    <updated>2016-03-21T11:39:19.000Z</updated>
     
     <content type="html">&lt;p&gt;使用Hexo建立自己的博客网站 ，可以概括为以下几个流程：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;注册&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;账号&lt;/li&gt;
-&lt;li&gt;创建&lt;a href=&quot;https://pages.github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;创建&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;仓库&lt;/li&gt;
 &lt;li&gt;购买独立&lt;a href=&quot;http://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;域名&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;使用&lt;a href=&quot;https://hexo.io/zh-cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;创建博客网站&lt;/li&gt;
+&lt;li&gt;使用&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;创建博客网站&lt;/li&gt;
 &lt;li&gt;将博客网站部署到GitHub&lt;/li&gt;
 &lt;li&gt;将域名和GitHub建立关联&lt;/li&gt;
 &lt;li&gt;至此，你的独立域名博客已经建好了&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&quot;1-注册GitHub账号&quot;&gt;&lt;a href=&quot;#1-注册GitHub账号&quot; class=&quot;headerlink&quot; title=&quot;1. 注册GitHub账号&quot;&gt;&lt;/a&gt;1. 注册GitHub账号&lt;/h2&gt;&lt;p&gt;不在此详解。&lt;/p&gt;
-&lt;h2 id=&quot;2-创建GitHub-Pages&quot;&gt;&lt;a href=&quot;#2-创建GitHub-Pages&quot; class=&quot;headerlink&quot; title=&quot;2. 创建GitHub Pages&quot;&gt;&lt;/a&gt;2. 创建GitHub Pages&lt;/h2&gt;&lt;p&gt;不在此详解。&lt;/p&gt;
-&lt;h2 id=&quot;3-购买独立域名&quot;&gt;&lt;a href=&quot;#3-购买独立域名&quot; class=&quot;headerlink&quot; title=&quot;3. 购买独立域名&quot;&gt;&lt;/a&gt;3. 购买独立域名&lt;/h2&gt;&lt;p&gt;不在此详解。&lt;/p&gt;
-&lt;p&gt;在&lt;a href=&quot;http://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阿里云&lt;/a&gt;(原万网)可以购买域名，有阿里强大的保障，应该比较可靠。&lt;/p&gt;
-&lt;p&gt;还有一点，阿里云域名控制台页面做的还比较好用，虽然页面模块跳转乱乱的。&lt;/p&gt;
-&lt;h2 id=&quot;4-使用Hexo创建博客网站&quot;&gt;&lt;a href=&quot;#4-使用Hexo创建博客网站&quot; class=&quot;headerlink&quot; title=&quot;4. 使用Hexo创建博客网站&quot;&gt;&lt;/a&gt;4. 使用Hexo创建博客网站&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Hexo 是一个快速、简洁且高效的博客框架。--- Hexo官方的描述。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;外链一篇整理很全面的关于&lt;a href=&quot;http://ibruce.info/2013/11/22/hexo-your-blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo建立博客的文章&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;1-创建GitHub仓库&quot;&gt;&lt;a href=&quot;#1-创建GitHub仓库&quot; class=&quot;headerlink&quot; title=&quot;1. 创建GitHub仓库&quot;&gt;&lt;/a&gt;1. 创建GitHub仓库&lt;/h2&gt;&lt;p&gt;不在此详解。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;注册GitHub账号&lt;/li&gt;
+&lt;li&gt;创建Pages仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;创建一个&lt;code&gt;GitHub Reponsitory&lt;/code&gt;，name必须填写为：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;username.github.com&lt;/code&gt; 或者 &lt;code&gt;username.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;username是你GitHub账户的&lt;code&gt;用户名&lt;/code&gt;或者&lt;code&gt;组织名&lt;/code&gt;，例如：&lt;code&gt;https://github.com/abooc/&lt;/code&gt;，username为&lt;code&gt;abooc&lt;/code&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意：如果username填写不正确，GitHub Pages将无法正常使用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;2-购买独立域名&quot;&gt;&lt;a href=&quot;#2-购买独立域名&quot; class=&quot;headerlink&quot; title=&quot;2. 购买独立域名&quot;&gt;&lt;/a&gt;2. 购买独立域名&lt;/h2&gt;&lt;p&gt;不在此详解。&lt;/p&gt;
+&lt;p&gt;域名有很多种不同形式的后缀，有&lt;code&gt;.com .cn .edu .gov .org&lt;/code&gt;等几十种，不同后缀代表着不同的意义。如果普通用户使用，后缀意义不大，不会有太大影响，主要能注册到，都可以使用。&lt;/p&gt;
+&lt;h3 id=&quot;2-1-在哪里购买域名？&quot;&gt;&lt;a href=&quot;#2-1-在哪里购买域名？&quot; class=&quot;headerlink&quot; title=&quot;2.1 在哪里购买域名？&quot;&gt;&lt;/a&gt;2.1 在哪里购买域名？&lt;/h3&gt;&lt;p&gt;提供域名购买的网站有很多，不同的网站域名价格可能不一样，主要后期服务支持很重要。&lt;/p&gt;
+&lt;p&gt;不知道在哪里购买域名的同学可以尝试选择这里：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;阿里云&lt;/a&gt;(原万网) 有阿里巴巴保障&lt;ul&gt;
+&lt;li&gt;阿里云域名控制台页面做的比较中国化。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://sg.godaddy.com/zh?ci=&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GoDaddy&lt;/a&gt; 全球最著名域名注册商&lt;ul&gt;
+&lt;li&gt;Go Daddy是一家提供域名注册和互联网主机服务的美国公司，是目前全球最大的域名注册商。购买域名可以使用优惠码，可以自行谷歌或到&lt;a href=&quot;http://www.dute.me/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;独特优惠码&lt;/a&gt;找。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;3-使用Hexo创建博客网站&quot;&gt;&lt;a href=&quot;#3-使用Hexo创建博客网站&quot; class=&quot;headerlink&quot; title=&quot;3. 使用Hexo创建博客网站&quot;&gt;&lt;/a&gt;3. 使用Hexo创建博客网站&lt;/h2&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;Hexo 是一个快速、简洁且高效的博客框架。--- Hexo官方的描述。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
-&lt;p&gt;Hexo是&lt;a href=&quot;https://zespia.tw/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tommy Chen&lt;/a&gt;，一位台湾同胞开发的博客框架。&lt;/p&gt;
+&lt;p&gt;Hexo是&lt;a href=&quot;https://zespia.tw/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Tommy Chen&lt;/a&gt;，一位台湾人开发的博客框架。&lt;/p&gt;
 &lt;p&gt;至于如何使用，请认真阅读&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo文档&lt;/a&gt;，介绍非常详细、实用。&lt;/p&gt;
 &lt;p&gt;从安装Hexo到部署网站到GitHub共以下5个重要步骤：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;安装&lt;/li&gt;
 &lt;li&gt;本地建站&lt;/li&gt;
-&lt;li&gt;写文章&lt;/li&gt;
 &lt;li&gt;安装主题&lt;/li&gt;
+&lt;li&gt;写文章&lt;/li&gt;
 &lt;li&gt;发布&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;按照Hexo文档一步步，开始…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;强烈建议，&lt;a href=&quot;https://hexo.io/zh-cn/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;按照Hexo文档一步步，开始…&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Hexo可以通过渲染，在本地预览你的网站，预览没有问题后，可以通过一键部署到GitHub上。参见下一篇。&lt;/p&gt;
+&lt;p&gt;Hexo可以通过渲染，在本地预览你的网站，并通过一键部署到GitHub上。见后面章节。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;5-将博客网站部署到GitHub&quot;&gt;&lt;a href=&quot;#5-将博客网站部署到GitHub&quot; class=&quot;headerlink&quot; title=&quot;5.将博客网站部署到GitHub&quot;&gt;&lt;/a&gt;5.将博客网站部署到GitHub&lt;/h2&gt;&lt;p&gt;将博客网站部署到GitHub有两种操作方法：&lt;/p&gt;
+&lt;h3 id=&quot;3-1-Hexo目录介绍&quot;&gt;&lt;a href=&quot;#3-1-Hexo目录介绍&quot; class=&quot;headerlink&quot; title=&quot;3.1 Hexo目录介绍&quot;&gt;&lt;/a&gt;3.1 Hexo目录介绍&lt;/h3&gt;&lt;p&gt;默认目录结构：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── .deploy&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── public&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── scaffolds&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── scripts&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── source&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|   ├── _drafts&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;|   └── _posts&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── themes&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;├── _config.yml&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;└── package.json&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;deploy：执行hexo deploy命令部署到GitHub上的内容目录&lt;/li&gt;
+&lt;li&gt;public：执行hexo generate命令，输出的静态网页内容目录&lt;/li&gt;
+&lt;li&gt;scaffolds：layout模板文件目录，其中的md文件可以添加编辑&lt;/li&gt;
+&lt;li&gt;scripts：扩展脚本目录，这里可以自定义一些javascript脚本&lt;/li&gt;
+&lt;li&gt;source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。&lt;/li&gt;
+&lt;li&gt;_drafts：草稿文章&lt;/li&gt;
+&lt;li&gt;_posts：发布文章&lt;/li&gt;
+&lt;li&gt;themes：主题文件目录&lt;/li&gt;
+&lt;li&gt;_config.yml：全局配置文件，大多数的设置都在这里&lt;/li&gt;
+&lt;li&gt;package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用：&lt;a href=&quot;http://ibruce.info/2013/11/22/hexo-your-blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ibruce.info/2013/11/22/hexo-your-blog/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;3-2-Hexo常用命令&quot;&gt;&lt;a href=&quot;#3-2-Hexo常用命令&quot; class=&quot;headerlink&quot; title=&quot;3.2 Hexo常用命令&quot;&gt;&lt;/a&gt;3.2 Hexo常用命令&lt;/h3&gt;&lt;p&gt;常用命令：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo new &amp;quot;postName&amp;quot; #新建文章&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo new page &amp;quot;pageName&amp;quot; #新建页面&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo generate #生成静态页面至public目录&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo server #开启预览访问端口（默认端口4000，&amp;apos;ctrl + c&amp;apos;关闭server）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo deploy #将.deploy目录部署到GitHub&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;常用复合命令：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo deploy -g&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo server -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;简写：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;hexo n == hexo new&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo g == hexo generate&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo s == hexo server&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hexo d == hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用：&lt;a href=&quot;http://ibruce.info/2013/11/22/hexo-your-blog/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ibruce.info/2013/11/22/hexo-your-blog/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;注意：在使用过程中如遇问题，查看&lt;a href=&quot;https://hexo.io/zh-cn/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo问题解答&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;4-将博客网站部署到GitHub&quot;&gt;&lt;a href=&quot;#4-将博客网站部署到GitHub&quot; class=&quot;headerlink&quot; title=&quot;4. 将博客网站部署到GitHub&quot;&gt;&lt;/a&gt;4. 将博客网站部署到GitHub&lt;/h2&gt;&lt;p&gt;将博客网站部署到GitHub有两种操作方法：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;手动提交到Git仓库&lt;/li&gt;
 &lt;li&gt;使用Hexo一键部署&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。&lt;/p&gt;
+&lt;p&gt;Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到Git服务器上。&lt;/p&gt;
+&lt;p&gt;基本步骤包括：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;安装部署到Git的程序 &lt;code&gt;$ npm install hexo-deployer-git --save&lt;/code&gt;。&lt;/li&gt;
 &lt;li&gt;配置一键部署&lt;/li&gt;
 &lt;li&gt;执行部署命令：&lt;code&gt;hexo deploy&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;在Hexo根目录下，编辑&lt;code&gt;_config.yml&lt;/code&gt;配置一键部署信息。&lt;/p&gt;
+&lt;h3 id=&quot;4-1-配置一键部署&quot;&gt;&lt;a href=&quot;#4-1-配置一键部署&quot; class=&quot;headerlink&quot; title=&quot;4.1 配置一键部署&quot;&gt;&lt;/a&gt;4.1 配置一键部署&lt;/h3&gt;&lt;p&gt;在Hexo根目录下，编辑&lt;code&gt;_config.yml&lt;/code&gt;配置一键部署信息。&lt;/p&gt;
 &lt;p&gt;配置和说明：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  type: git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  repo: https://github.com/username/username.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;参数	描述&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;type    平台名称。如git、Heroku等&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;repo	库（Repository）地址&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;branch	分支名称。如果您使用的是 GitHub 或 GitCafe 的话，程序会尝试自动检测。&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;message	自定义提交信息 (默认为 Site updated: &amp;#123;&amp;#123; now(&amp;apos;YYYY-MM-DD HH:mm:ss&amp;apos;) &amp;#125;&amp;#125;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Hexo支持一键部署到多个平台，如 git、Heroku、Rsync、OpenShift、FTPSync等。&lt;br&gt;您可同时使用多个 deployer，Hexo 会依照顺序执行每个 deployer。&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- type: git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  repo:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- type: heroku&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  repo:&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;更多配置见：[部署]&lt;a href=&quot;https://hexo.io/zh-cn/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://hexo.io/zh-cn/docs/deployment.html&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;6-将域名和GitHub建立关联&quot;&gt;&lt;a href=&quot;#6-将域名和GitHub建立关联&quot; class=&quot;headerlink&quot; title=&quot;6. 将域名和GitHub建立关联&quot;&gt;&lt;/a&gt;6. 将域名和GitHub建立关联&lt;/h2&gt;&lt;p&gt;要把你的域名指向GitHub，同时将GitHub绑定你的域名，这是一个双向关系。&lt;/p&gt;
+&lt;h2 id=&quot;5-将域名和GitHub建立关联&quot;&gt;&lt;a href=&quot;#5-将域名和GitHub建立关联&quot; class=&quot;headerlink&quot; title=&quot;5. 将域名和GitHub建立关联&quot;&gt;&lt;/a&gt;5. 将域名和GitHub建立关联&lt;/h2&gt;&lt;p&gt;想要达到访问你的域名时，指向你GitHub的仓库，并能正确响应页面，&lt;/p&gt;
+&lt;p&gt;要把你的域名指向GitHub，同时将GitHub绑定你的域名，这是一个双向关系。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;配置域名DNS解析指向GitHub&lt;/li&gt;
 &lt;li&gt;GitHub仓库绑定域名&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;6-1-配置域名DNS解析指向GitHub&quot;&gt;&lt;a href=&quot;#6-1-配置域名DNS解析指向GitHub&quot; class=&quot;headerlink&quot; title=&quot;6.1 配置域名DNS解析指向GitHub&quot;&gt;&lt;/a&gt;6.1 配置域名DNS解析指向GitHub&lt;/h3&gt;&lt;p&gt;联系你的域名提供商，配置DNS解析。&lt;/p&gt;
+&lt;h3 id=&quot;5-1-配置域名DNS解析指向GitHub&quot;&gt;&lt;a href=&quot;#5-1-配置域名DNS解析指向GitHub&quot; class=&quot;headerlink&quot; title=&quot;5.1 配置域名DNS解析指向GitHub&quot;&gt;&lt;/a&gt;5.1 配置域名DNS解析指向GitHub&lt;/h3&gt;&lt;p&gt;联系你的域名提供商，配置DNS解析。&lt;/p&gt;
 &lt;p&gt;通常登录你的域名提供商网站控制台，可以自由进行配置。&lt;/p&gt;
 &lt;p&gt;DNS解析配置如下：&lt;/p&gt;
 &lt;table&gt;
@@ -203,31 +254,30 @@
 &lt;p&gt;注释：主机记录就是域名前缀，常见用法有：&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;www ：将域名example.com解析为www.example.com；&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;mail ：通常被用作邮箱服务器前缀，解析后的域名为 mail.example.com；&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;* ：泛解析，所有子域名均被解析到同一地址（除单独设置的子域名解析）。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;6-2-GitHub仓库绑定域名&quot;&gt;&lt;a href=&quot;#6-2-GitHub仓库绑定域名&quot; class=&quot;headerlink&quot; title=&quot;6.2 GitHub仓库绑定域名&quot;&gt;&lt;/a&gt;6.2 GitHub仓库绑定域名&lt;/h3&gt;&lt;p&gt;在GitHub仓库根目录下，创建名为&lt;code&gt;CNAME&lt;/code&gt;文件，文件内容如下：&lt;/p&gt;
+&lt;h3 id=&quot;5-2-GitHub仓库绑定域名&quot;&gt;&lt;a href=&quot;#5-2-GitHub仓库绑定域名&quot; class=&quot;headerlink&quot; title=&quot;5.2 GitHub仓库绑定域名&quot;&gt;&lt;/a&gt;5.2 GitHub仓库绑定域名&lt;/h3&gt;&lt;p&gt;在GitHub仓库根目录下，创建名为&lt;code&gt;CNAME&lt;/code&gt;文件，文件内容如下：&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;www.your-domain.com&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;GitHub会自动将&lt;code&gt;your-domain.com&lt;/code&gt;的访问指向&lt;code&gt;www.your-domain.com&lt;/code&gt;，无需配置。&lt;/p&gt;
 &lt;p&gt;如果绑定成功，进入该仓库的&lt;code&gt;Settings &amp;gt; Optinogs&lt;/code&gt;页面，查看&lt;code&gt;GitHub Pages&lt;/code&gt;项中，会有如下提示：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;OK, Your site is published at &lt;a href=&quot;http://www.your-domain.com.`&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.your-domain.com.`&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&quot;6-3-确认域名解析配置&quot;&gt;&lt;a href=&quot;#6-3-确认域名解析配置&quot; class=&quot;headerlink&quot; title=&quot;6.3 确认域名解析配置&quot;&gt;&lt;/a&gt;6.3 确认域名解析配置&lt;/h3&gt;&lt;p&gt;使用&lt;code&gt;dig&lt;/code&gt;命令确认DNS配置，例如：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ dig www.example.com +nostats +nocomments +nocmd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; ;www.example.com.			IN	A&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; www.example.com.		30	IN	CNAME	YOUR-USERNAME.github.io.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; YOUR-USERNAME.github.io.	30	IN	CNAME	github.map.fastly.net.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; example.com.     3600    IN A     199.27.XX.XXX&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3 id=&quot;5-3-确认域名解析配置&quot;&gt;&lt;a href=&quot;#5-3-确认域名解析配置&quot; class=&quot;headerlink&quot; title=&quot;5.3 确认域名解析配置&quot;&gt;&lt;/a&gt;5.3 确认域名解析配置&lt;/h3&gt;&lt;p&gt;使用&lt;code&gt;dig&lt;/code&gt;命令确认DNS配置，例如：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ dig www.example.com +nostats +nocomments +nocmd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; ;www.example.com.			IN	A&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; www.example.com.		30	IN	CNAME	YOUR-USERNAME.github.io.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; YOUR-USERNAME.github.io.	30	IN	CNAME	github.map.fastly.net.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; example.com.     3600    IN A     199.27.XX.XXX&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;还可以使用&lt;code&gt;dig YOUR-USERNAME.github.io&lt;/code&gt;进一步确认，例如：&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ dig YOUR-USERNAME.github.io +nostats +nocomments +nocmd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; ;YOUR-USERNAME.github.io.		IN	A&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; YOUR-USERNAME.github.io.	30	IN	CNAME	github.map.fastly.net.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt; YOUR-USERNAME.github.io     3600    IN A     199.27.XX.XXX&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;如果配置正确，&lt;code&gt;dig www.example.com&lt;/code&gt;和&lt;code&gt;dig YOUR-USERNAME.github.io&lt;/code&gt;显示指向同一个ip地址。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;英文原文：&lt;a href=&quot;https://help.github.com/articles/setting-up-an-apex-domain/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Setting up an apex domain&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;7-至此，你的独立域名博客已经建好了&quot;&gt;&lt;a href=&quot;#7-至此，你的独立域名博客已经建好了&quot; class=&quot;headerlink&quot; title=&quot;7. 至此，你的独立域名博客已经建好了&quot;&gt;&lt;/a&gt;7. 至此，你的独立域名博客已经建好了&lt;/h2&gt;&lt;p&gt;如果以上你都确保完成了，那么在浏览器里键入你的域名，尽享奇迹的愉悦吧。&lt;/p&gt;
+&lt;h2 id=&quot;6-至此，你的独立域名博客已经建好了&quot;&gt;&lt;a href=&quot;#6-至此，你的独立域名博客已经建好了&quot; class=&quot;headerlink&quot; title=&quot;6. 至此，你的独立域名博客已经建好了&quot;&gt;&lt;/a&gt;6. 至此，你的独立域名博客已经建好了&lt;/h2&gt;&lt;p&gt;如果以上你都确保完成了，那么在浏览器里键入你的域名，尽享奇迹的愉悦吧。&lt;/p&gt;
 &lt;p&gt;当然，这只是一个开始，后面的路还很长，走很久。。。&lt;/p&gt;
 &lt;p&gt;也当然，一个好的开始，就是成功的一半。能迈出第一步，是艰难的，了不起的。&lt;/p&gt;
-&lt;p&gt;大多数人，是在迈第一步时，被门槛绊倒了，就没有以后了。&lt;/p&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;使用Hexo建立自己的博客网站 ，可以概括为以下几个流程：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;注册&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;账号&lt;/li&gt;
-&lt;li&gt;创建&lt;a href
+&lt;li&gt;创建&lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;仓库&lt;/li&gt;
+&lt;li&gt;购买独立&lt;a hr
     
     </summary>
     
@@ -253,15 +303,19 @@
     <link href="http://www.dayu.love/2010/08/08/hello-world/"/>
     <id>http://www.dayu.love/2010/08/08/hello-world/</id>
     <published>2010-08-08T04:39:00.000Z</published>
-    <updated>2016-03-07T03:15:11.000Z</updated>
+    <updated>2016-03-21T11:46:01.000Z</updated>
     
     <content type="html">&lt;p&gt;一个充满了伟大幻想的梦想家，在这里驻足，瞻望…&lt;/p&gt;
+&lt;hr&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;怀揣一份理想，才能成就非凡！&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;hr&gt;
 </content>
     
     <summary type="html">
     
       &lt;p&gt;一个充满了伟大幻想的梦想家，在这里驻足，瞻望…&lt;/p&gt;
-
+&lt;hr&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;
     
     </summary>
     

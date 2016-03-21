@@ -51,58 +51,109 @@
       <url>http://www.dayu.love/2016/03/01/Hexo/</url>
       <content type="html"><![CDATA[<p>使用Hexo建立自己的博客网站 ，可以概括为以下几个流程：</p>
 <ol>
-<li>注册<a href="https://github.com/" target="_blank" rel="external">GitHub</a>账号</li>
-<li>创建<a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a></li>
+<li>创建<a href="https://github.com/" target="_blank" rel="external">GitHub</a>仓库</li>
 <li>购买独立<a href="http://wanwang.aliyun.com/" target="_blank" rel="external">域名</a></li>
-<li>使用<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a>创建博客网站</li>
+<li>使用<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo</a>创建博客网站</li>
 <li>将博客网站部署到GitHub</li>
 <li>将域名和GitHub建立关联</li>
 <li>至此，你的独立域名博客已经建好了</li>
 </ol>
-<h2 id="1-注册GitHub账号"><a href="#1-注册GitHub账号" class="headerlink" title="1. 注册GitHub账号"></a>1. 注册GitHub账号</h2><p>不在此详解。</p>
-<h2 id="2-创建GitHub-Pages"><a href="#2-创建GitHub-Pages" class="headerlink" title="2. 创建GitHub Pages"></a>2. 创建GitHub Pages</h2><p>不在此详解。</p>
-<h2 id="3-购买独立域名"><a href="#3-购买独立域名" class="headerlink" title="3. 购买独立域名"></a>3. 购买独立域名</h2><p>不在此详解。</p>
-<p>在<a href="http://wanwang.aliyun.com/" target="_blank" rel="external">阿里云</a>(原万网)可以购买域名，有阿里强大的保障，应该比较可靠。</p>
-<p>还有一点，阿里云域名控制台页面做的还比较好用，虽然页面模块跳转乱乱的。</p>
-<h2 id="4-使用Hexo创建博客网站"><a href="#4-使用Hexo创建博客网站" class="headerlink" title="4. 使用Hexo创建博客网站"></a>4. 使用Hexo创建博客网站</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hexo 是一个快速、简洁且高效的博客框架。--- Hexo官方的描述。</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>外链一篇整理很全面的关于<a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">Hexo建立博客的文章</a></p>
+</blockquote>
+<h2 id="1-创建GitHub仓库"><a href="#1-创建GitHub仓库" class="headerlink" title="1. 创建GitHub仓库"></a>1. 创建GitHub仓库</h2><p>不在此详解。</p>
+<ul>
+<li>注册GitHub账号</li>
+<li>创建Pages仓库</li>
+</ul>
+<p>创建一个<code>GitHub Reponsitory</code>，name必须填写为：</p>
+<p><code>username.github.com</code> 或者 <code>username.github.io</code></p>
+<p>username是你GitHub账户的<code>用户名</code>或者<code>组织名</code>，例如：<code>https://github.com/abooc/</code>，username为<code>abooc</code>。</p>
+<blockquote>
+<p>注意：如果username填写不正确，GitHub Pages将无法正常使用。</p>
+</blockquote>
+<h2 id="2-购买独立域名"><a href="#2-购买独立域名" class="headerlink" title="2. 购买独立域名"></a>2. 购买独立域名</h2><p>不在此详解。</p>
+<p>域名有很多种不同形式的后缀，有<code>.com .cn .edu .gov .org</code>等几十种，不同后缀代表着不同的意义。如果普通用户使用，后缀意义不大，不会有太大影响，主要能注册到，都可以使用。</p>
+<h3 id="2-1-在哪里购买域名？"><a href="#2-1-在哪里购买域名？" class="headerlink" title="2.1 在哪里购买域名？"></a>2.1 在哪里购买域名？</h3><p>提供域名购买的网站有很多，不同的网站域名价格可能不一样，主要后期服务支持很重要。</p>
+<p>不知道在哪里购买域名的同学可以尝试选择这里：</p>
+<ul>
+<li><a href="http://wanwang.aliyun.com/" target="_blank" rel="external">阿里云</a>(原万网) 有阿里巴巴保障<ul>
+<li>阿里云域名控制台页面做的比较中国化。</li>
+</ul>
+</li>
+<li><a href="https://sg.godaddy.com/zh?ci=" target="_blank" rel="external">GoDaddy</a> 全球最著名域名注册商<ul>
+<li>Go Daddy是一家提供域名注册和互联网主机服务的美国公司，是目前全球最大的域名注册商。购买域名可以使用优惠码，可以自行谷歌或到<a href="http://www.dute.me/" target="_blank" rel="external">独特优惠码</a>找。</li>
+</ul>
+</li>
+</ul>
+<h2 id="3-使用Hexo创建博客网站"><a href="#3-使用Hexo创建博客网站" class="headerlink" title="3. 使用Hexo创建博客网站"></a>3. 使用Hexo创建博客网站</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hexo 是一个快速、简洁且高效的博客框架。--- Hexo官方的描述。</span><br></pre></td></tr></table></figure>
 <p>Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
-<p>Hexo是<a href="https://zespia.tw/" target="_blank" rel="external">Tommy Chen</a>，一位台湾同胞开发的博客框架。</p>
+<p>Hexo是<a href="https://zespia.tw/" target="_blank" rel="external">Tommy Chen</a>，一位台湾人开发的博客框架。</p>
 <p>至于如何使用，请认真阅读<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo文档</a>，介绍非常详细、实用。</p>
 <p>从安装Hexo到部署网站到GitHub共以下5个重要步骤：</p>
 <ol>
 <li>安装</li>
 <li>本地建站</li>
-<li>写文章</li>
 <li>安装主题</li>
+<li>写文章</li>
 <li>发布</li>
 </ol>
-<p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">按照Hexo文档一步步，开始…</a></p>
+<p>强烈建议，<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">按照Hexo文档一步步，开始…</a></p>
 <blockquote>
-<p>Hexo可以通过渲染，在本地预览你的网站，预览没有问题后，可以通过一键部署到GitHub上。参见下一篇。</p>
+<p>Hexo可以通过渲染，在本地预览你的网站，并通过一键部署到GitHub上。见后面章节。</p>
 </blockquote>
-<h2 id="5-将博客网站部署到GitHub"><a href="#5-将博客网站部署到GitHub" class="headerlink" title="5.将博客网站部署到GitHub"></a>5.将博客网站部署到GitHub</h2><p>将博客网站部署到GitHub有两种操作方法：</p>
+<h3 id="3-1-Hexo目录介绍"><a href="#3-1-Hexo目录介绍" class="headerlink" title="3.1 Hexo目录介绍"></a>3.1 Hexo目录介绍</h3><p>默认目录结构：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy</span><br><span class="line">├── public</span><br><span class="line">├── scaffolds</span><br><span class="line">├── scripts</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">├── themes</span><br><span class="line">├── _config.yml</span><br><span class="line">└── package.json</span><br></pre></td></tr></table></figure>
+<ul>
+<li>deploy：执行hexo deploy命令部署到GitHub上的内容目录</li>
+<li>public：执行hexo generate命令，输出的静态网页内容目录</li>
+<li>scaffolds：layout模板文件目录，其中的md文件可以添加编辑</li>
+<li>scripts：扩展脚本目录，这里可以自定义一些javascript脚本</li>
+<li>source：文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</li>
+<li>_drafts：草稿文章</li>
+<li>_posts：发布文章</li>
+<li>themes：主题文件目录</li>
+<li>_config.yml：全局配置文件，大多数的设置都在这里</li>
+<li>package.json：应用程序数据，指明hexo的版本等信息，类似于一般软件中的关于</li>
+</ul>
+<blockquote>
+<p>引用：<a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">http://ibruce.info/2013/11/22/hexo-your-blog/</a></p>
+</blockquote>
+<h3 id="3-2-Hexo常用命令"><a href="#3-2-Hexo常用命令" class="headerlink" title="3.2 Hexo常用命令"></a>3.2 Hexo常用命令</h3><p>常用命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;postName&quot; #新建文章</span><br><span class="line">hexo new page &quot;pageName&quot; #新建页面</span><br><span class="line">hexo generate #生成静态页面至public目录</span><br><span class="line">hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）</span><br><span class="line">hexo deploy #将.deploy目录部署到GitHub</span><br></pre></td></tr></table></figure>
+<p>常用复合命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy -g</span><br><span class="line">hexo server -g</span><br></pre></td></tr></table></figure></p>
+<p>简写：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n == hexo new</span><br><span class="line">hexo g == hexo generate</span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo d == hexo deploy</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>引用：<a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">http://ibruce.info/2013/11/22/hexo-your-blog/</a></p>
+</blockquote>
+<p>注意：在使用过程中如遇问题，查看<a href="https://hexo.io/zh-cn/docs/troubleshooting.html" target="_blank" rel="external">Hexo问题解答</a>。</p>
+<h2 id="4-将博客网站部署到GitHub"><a href="#4-将博客网站部署到GitHub" class="headerlink" title="4. 将博客网站部署到GitHub"></a>4. 将博客网站部署到GitHub</h2><p>将博客网站部署到GitHub有两种操作方法：</p>
 <ul>
 <li>手动提交到Git仓库</li>
 <li>使用Hexo一键部署</li>
 </ul>
-<p>Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到服务器上。</p>
+<p>Hexo 提供了快速方便的一键部署功能，让您只需一条命令就能将网站部署到Git服务器上。</p>
+<p>基本步骤包括：</p>
 <ol>
 <li>安装部署到Git的程序 <code>$ npm install hexo-deployer-git --save</code>。</li>
 <li>配置一键部署</li>
 <li>执行部署命令：<code>hexo deploy</code></li>
 </ol>
-<p>在Hexo根目录下，编辑<code>_config.yml</code>配置一键部署信息。</p>
+<h3 id="4-1-配置一键部署"><a href="#4-1-配置一键部署" class="headerlink" title="4.1 配置一键部署"></a>4.1 配置一键部署</h3><p>在Hexo根目录下，编辑<code>_config.yml</code>配置一键部署信息。</p>
 <p>配置和说明：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/username/username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">参数	描述</span><br><span class="line">type    平台名称。如git、Heroku等</span><br><span class="line">repo	库（Repository）地址</span><br><span class="line">branch	分支名称。如果您使用的是 GitHub 或 GitCafe 的话，程序会尝试自动检测。</span><br><span class="line">message	自定义提交信息 (默认为 Site updated: &#123;&#123; now(&apos;YYYY-MM-DD HH:mm:ss&apos;) &#125;&#125;)</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>Hexo支持一键部署到多个平台，如 git、Heroku、Rsync、OpenShift、FTPSync等。<br>您可同时使用多个 deployer，Hexo 会依照顺序执行每个 deployer。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">- type: git</span><br><span class="line">  repo:</span><br><span class="line">- type: heroku</span><br><span class="line">  repo:</span><br></pre></td></tr></table></figure></p>
+<p>更多配置见：[部署]<a href="https://hexo.io/zh-cn/docs/deployment.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/deployment.html</a></p>
 </blockquote>
-<h2 id="6-将域名和GitHub建立关联"><a href="#6-将域名和GitHub建立关联" class="headerlink" title="6. 将域名和GitHub建立关联"></a>6. 将域名和GitHub建立关联</h2><p>要把你的域名指向GitHub，同时将GitHub绑定你的域名，这是一个双向关系。</p>
+<h2 id="5-将域名和GitHub建立关联"><a href="#5-将域名和GitHub建立关联" class="headerlink" title="5. 将域名和GitHub建立关联"></a>5. 将域名和GitHub建立关联</h2><p>想要达到访问你的域名时，指向你GitHub的仓库，并能正确响应页面，</p>
+<p>要把你的域名指向GitHub，同时将GitHub绑定你的域名，这是一个双向关系。</p>
 <ul>
 <li>配置域名DNS解析指向GitHub</li>
 <li>GitHub仓库绑定域名</li>
 </ul>
-<h3 id="6-1-配置域名DNS解析指向GitHub"><a href="#6-1-配置域名DNS解析指向GitHub" class="headerlink" title="6.1 配置域名DNS解析指向GitHub"></a>6.1 配置域名DNS解析指向GitHub</h3><p>联系你的域名提供商，配置DNS解析。</p>
+<h3 id="5-1-配置域名DNS解析指向GitHub"><a href="#5-1-配置域名DNS解析指向GitHub" class="headerlink" title="5.1 配置域名DNS解析指向GitHub"></a>5.1 配置域名DNS解析指向GitHub</h3><p>联系你的域名提供商，配置DNS解析。</p>
 <p>通常登录你的域名提供商网站控制台，可以自由进行配置。</p>
 <p>DNS解析配置如下：</p>
 <table>
@@ -133,23 +184,22 @@
 <p>注释：主机记录就是域名前缀，常见用法有：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">www ：将域名example.com解析为www.example.com；</span><br><span class="line">mail ：通常被用作邮箱服务器前缀，解析后的域名为 mail.example.com；</span><br><span class="line">* ：泛解析，所有子域名均被解析到同一地址（除单独设置的子域名解析）。</span><br></pre></td></tr></table></figure>
 </blockquote>
-<h3 id="6-2-GitHub仓库绑定域名"><a href="#6-2-GitHub仓库绑定域名" class="headerlink" title="6.2 GitHub仓库绑定域名"></a>6.2 GitHub仓库绑定域名</h3><p>在GitHub仓库根目录下，创建名为<code>CNAME</code>文件，文件内容如下：</p>
+<h3 id="5-2-GitHub仓库绑定域名"><a href="#5-2-GitHub仓库绑定域名" class="headerlink" title="5.2 GitHub仓库绑定域名"></a>5.2 GitHub仓库绑定域名</h3><p>在GitHub仓库根目录下，创建名为<code>CNAME</code>文件，文件内容如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">www.your-domain.com</span><br></pre></td></tr></table></figure>
 <p>GitHub会自动将<code>your-domain.com</code>的访问指向<code>www.your-domain.com</code>，无需配置。</p>
 <p>如果绑定成功，进入该仓库的<code>Settings &gt; Optinogs</code>页面，查看<code>GitHub Pages</code>项中，会有如下提示：</p>
 <blockquote>
 <p>OK, Your site is published at <a href="http://www.your-domain.com.`" target="_blank" rel="external">http://www.your-domain.com.`</a></p>
 </blockquote>
-<h3 id="6-3-确认域名解析配置"><a href="#6-3-确认域名解析配置" class="headerlink" title="6.3 确认域名解析配置"></a>6.3 确认域名解析配置</h3><p>使用<code>dig</code>命令确认DNS配置，例如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ dig www.example.com +nostats +nocomments +nocmd</span><br><span class="line">&gt; ;www.example.com.			IN	A</span><br><span class="line">&gt; www.example.com.		30	IN	CNAME	YOUR-USERNAME.github.io.</span><br><span class="line">&gt; YOUR-USERNAME.github.io.	30	IN	CNAME	github.map.fastly.net.</span><br><span class="line">&gt; example.com.     3600    IN A     199.27.XX.XXX</span><br></pre></td></tr></table></figure></p>
+<h3 id="5-3-确认域名解析配置"><a href="#5-3-确认域名解析配置" class="headerlink" title="5.3 确认域名解析配置"></a>5.3 确认域名解析配置</h3><p>使用<code>dig</code>命令确认DNS配置，例如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ dig www.example.com +nostats +nocomments +nocmd</span><br><span class="line">&gt; ;www.example.com.			IN	A</span><br><span class="line">&gt; www.example.com.		30	IN	CNAME	YOUR-USERNAME.github.io.</span><br><span class="line">&gt; YOUR-USERNAME.github.io.	30	IN	CNAME	github.map.fastly.net.</span><br><span class="line">&gt; example.com.     3600    IN A     199.27.XX.XXX</span><br></pre></td></tr></table></figure></p>
 <p>还可以使用<code>dig YOUR-USERNAME.github.io</code>进一步确认，例如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ dig YOUR-USERNAME.github.io +nostats +nocomments +nocmd</span><br><span class="line">&gt; ;YOUR-USERNAME.github.io.		IN	A</span><br><span class="line">&gt; YOUR-USERNAME.github.io.	30	IN	CNAME	github.map.fastly.net.</span><br><span class="line">&gt; YOUR-USERNAME.github.io     3600    IN A     199.27.XX.XXX</span><br></pre></td></tr></table></figure></p>
 <p>如果配置正确，<code>dig www.example.com</code>和<code>dig YOUR-USERNAME.github.io</code>显示指向同一个ip地址。</p>
 <blockquote>
 <p>英文原文：<a href="https://help.github.com/articles/setting-up-an-apex-domain/" target="_blank" rel="external">Setting up an apex domain</a></p>
 </blockquote>
-<h2 id="7-至此，你的独立域名博客已经建好了"><a href="#7-至此，你的独立域名博客已经建好了" class="headerlink" title="7. 至此，你的独立域名博客已经建好了"></a>7. 至此，你的独立域名博客已经建好了</h2><p>如果以上你都确保完成了，那么在浏览器里键入你的域名，尽享奇迹的愉悦吧。</p>
+<h2 id="6-至此，你的独立域名博客已经建好了"><a href="#6-至此，你的独立域名博客已经建好了" class="headerlink" title="6. 至此，你的独立域名博客已经建好了"></a>6. 至此，你的独立域名博客已经建好了</h2><p>如果以上你都确保完成了，那么在浏览器里键入你的域名，尽享奇迹的愉悦吧。</p>
 <p>当然，这只是一个开始，后面的路还很长，走很久。。。</p>
 <p>也当然，一个好的开始，就是成功的一半。能迈出第一步，是艰难的，了不起的。</p>
-<p>大多数人，是在迈第一步时，被门槛绊倒了，就没有以后了。</p>
 ]]></content>
     </entry>
     
@@ -157,6 +207,9 @@
       <title><![CDATA[你好，世界]]></title>
       <url>http://www.dayu.love/2010/08/08/hello-world/</url>
       <content type="html"><![CDATA[<p>一个充满了伟大幻想的梦想家，在这里驻足，瞻望…</p>
+<hr>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">怀揣一份理想，才能成就非凡！</span><br></pre></td></tr></table></figure>
+<hr>
 ]]></content>
     </entry>
     
